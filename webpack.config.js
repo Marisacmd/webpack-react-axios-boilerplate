@@ -5,7 +5,7 @@ module.exports = {
     devtool: 'inline-source-map',
     mode: 'development',
     devServer: {
-        contentBase: path.join(__dirname, './web'),
+        contentBase: path.join(__dirname, './frontend'),
         compress: true,
         port: process.env.WEBPACK_DEV_SERVER_PORT || 4000,
         disableHostCheck: true,
@@ -17,7 +17,7 @@ module.exports = {
       }
     },    
     },
-    entry: path.join(__dirname, './index.js'),
+    entry: path.join(__dirname, './frontend/index.js'),
     output: {
         path: path.join(__dirname, './'),
         publicPath: '/',

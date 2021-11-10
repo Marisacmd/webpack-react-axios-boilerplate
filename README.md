@@ -9,7 +9,7 @@ cd backend
 node server.js
 ```
 
--2 2nd tab:
+- 2nd tab:
 
 ```
 npm install
